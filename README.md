@@ -44,7 +44,7 @@ git log --oneline
 ### 1.5 git diff
 
 Paste the `git status` and `git diff` commands and their output.
-````text
+```text
 git status
 On branch main
 
@@ -54,7 +54,9 @@ Changes not staged for commit:
 	modified:   README.md
 
 no changes added to commit (use "git add" and/or "git commit -a")
+```
 
+````diff
 git diff
 diff --git a/README.md b/README.md
 index 660e9ad..e4943d2 100644
@@ -111,8 +113,13 @@ https://github.com/Apiznel/lab03-exercises
 In your own words:
 
 - How does the nested-loop approach check for a duplicate?
+    Check the i<sub>th</sub> index against every other element (j = i + 1) to see if they're equal
 - How does the set-based approach check for a duplicate?
+    Check whether the sizes of the set and list are equal
+    If not, we know there were duplicates because of the properties of a set (no duplicates)
 - What is the runtime and memory trade-off of each?
+    O(n<sup>2</sup>) vs O(n)
+    O(n) vs O(2n) = O(n)
 
 ### 1.9 Pull request merge options
 
