@@ -88,6 +88,7 @@ index 660e9ad..e4943d2 100644
 ````
 
 How does this `git status` differ from the one in **1.2**?
+
 This `git status` tracks our README while **1.2** doesn't since that was before we added it
 We can see this as this `git status` tells us our README is modified rather than untracked
 
