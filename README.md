@@ -126,5 +126,8 @@ In your own words:
 In your own words, what does each GitHub merge option do?
 
 - Create a merge commit
+    Creates a separate commit linking each branch's latest commits
 - Squash and merge
+    Combines the commit with base branch's latest commit forming a singular commit
 - Rebase and merge
+    Links the commit onto base branch's latest commit
