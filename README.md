@@ -95,12 +95,12 @@ We can see this as this `git status` tells us our README is modified rather than
 
 In one or two sentences each, what does each command do?
 
-- `git init`
-- `git status`
-- `git add`
-- `git commit`
-- `git log`
-- `git diff`
+- `git init`: Creates a new git repository (.git) in the current directory
+- `git status`: Prints the status of the working tree (untracked files, modified, added)
+- `git add`: Adds the specified file or directory (recursively) to staging meaning it keeps track of it
+- `git commit`: Creates a new commit node (message + hash) containing whatever was added
+- `git log`: Shows a history of the current branches' commits
+- `git diff`: Shows the changes made in files that haven't been committed
 
 ### 1.7 Repository link
 
