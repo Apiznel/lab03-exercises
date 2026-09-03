@@ -44,7 +44,7 @@ git log --oneline
 ### 1.5 git diff
 
 Paste the `git status` and `git diff` commands and their output.
-```text
+````text
 git status
 On branch main
 
@@ -85,7 +85,7 @@ index 660e9ad..e4943d2 100644
  
  ### 1.5 git diff
  
-```
+````
 
 How does this `git status` differ from the one in **1.2**?
 This `git status` tracks our README while **1.2** doesn't since that was before we added it
