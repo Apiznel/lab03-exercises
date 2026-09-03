@@ -104,6 +104,7 @@ In one or two sentences each, what does each command do?
 - `git diff`: Shows the changes made in files that haven't been committed
 
 ### 1.7 Repository link
+https://github.com/Apiznel/lab03-exercises
 
 ### 1.8 Comparing approaches
 
